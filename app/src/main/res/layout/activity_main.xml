@@ -10,28 +10,103 @@
         android:id="@+id/txtTitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Titulo"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="16dp"/>
 
+        android:text="Tempo"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtTitulo2"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_marginBottom="16dp"
+        android:text="00:00"
+        android:textSize="30sp"
+        android:textStyle="bold" />
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/btnPlay"
+        <TextView
+            android:id="@+id/txtTitulo3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Play"/>
+            android:text="🏃Distância"
+            android:textColor="#00FFBA"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:layout_marginRight="30sp"/>
 
-        <Button
-            android:id="@+id/btnStop"
+        <TextView
+            android:id="@+id/txtTitulo5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Stop"
-            android:layout_marginStart="8dp"/>
+            android:text="🔥Calorias"
+            android:textColor="#00FFBA"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:layout_marginRight="30sp"/>
+        />
+
+
+        <TextView
+            android:id="@+id/txtTitulo6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="❤BPM"
+            android:textColor="#00FFBA"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/txtTitulo9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="--"
+        android:textColor="#00FFBA"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:layout_marginRight="70sp"/>
+        <TextView
+            android:id="@+id/txtTitulo8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="--"
+            android:textColor="#00FFBA"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:layout_marginRight="70sp"/>/>
+
+        <TextView
+            android:id="@+id/txtTitulo7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="--"
+            android:textColor="#00FFBA"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:background="@mipmap/ic_button_round"
+
+        android:src="@mipmap/ic_button" />
+
+    <LinearLayout
+        android:layout_width="59dp"
+        android:layout_height="15dp"
+        android:orientation="horizontal">
 
     </LinearLayout>
 
