@@ -100,8 +100,8 @@
         android:layout_width="50sp"
         android:layout_height="50sp"
         android:background="@mipmap/ic_button_round"
-
         android:src="@mipmap/ic_button" />
+
 
     <LinearLayout
         android:layout_width="59dp"
@@ -109,5 +109,10 @@
         android:orientation="horizontal">
 
     </LinearLayout>
-
+    <Button
+        android:id="@+id/btnPerfil"
+        android:layout_width="32dp"
+        android:layout_height="31dp"
+        android:background="@mipmap/ic_button_round"
+        android:src="@mipmap/ic_button_round" />
 </LinearLayout>
