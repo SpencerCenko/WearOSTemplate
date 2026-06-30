@@ -113,6 +113,6 @@
         android:id="@+id/btnPerfil"
         android:layout_width="32dp"
         android:layout_height="31dp"
-        android:background="@mipmap/ic_button_round"
+        android:background="@mipmap/ic_perfil_round" />
         android:src="@mipmap/ic_button_round" />
 </LinearLayout>
